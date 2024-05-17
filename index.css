@@ -1,5 +1,25 @@
-.navbar {
-    background-color: lightcoral;
+* {
     margin: 0;
     padding: 0;
+}
+
+.navbar {
+    background-color: lightcoral;
+    border-radius: 5em;
+}
+
+.link_navbar > ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration-line: none;
+    gap: 5rem;
+    position: relative;
+    left: 10rem;
+}   
+
+.navbar_names {
+    color: black;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
 }
