@@ -16,17 +16,17 @@ body {
 /* navbar settings */
 
 .navbar {
-    background-color: lightcoral;
-    border-radius: 5em;
+    background-color: #003871;
+    height: 5.5rem;
 }
 
 .link_navbar > ul{
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 6rem;
     position: relative;
-    right: 5rem;
-    bottom: 1rem;
+    right: 10rem;
+    bottom: .3rem;
     justify-content: end;
     list-style-type: none;
 }   
@@ -34,15 +34,31 @@ body {
 
 .title_navbar > h1 {
     position: relative;
-    left: 3rem;
-    top: 0.5rem;
+    left: 6.2rem;
+    top: 1.5rem;
+    color: #f5f5f5;
+    font-family: "Montserrat";
 }
 
+.title_navbar > .img_des_logo {
+    display: flex;
+    
+
+    
+} 
+
 .navbar_names {
-    color: black;
+    color: #f5f5f5;
     flex-direction: row;
     text-decoration: none;
     list-style: none;
+    font-family: "Montserrat";
+}
+
+
+.navbar_names:hover {
+    font-weight: bold;
+    transition: 0.2s;
 }
 
 /* menu setting */
@@ -51,7 +67,6 @@ body {
     width: 99.8vw;
     height: 93vh;
     background-color: lightgreen;
-    border-radius: 3rem;
 }
 
 .menu_content {
