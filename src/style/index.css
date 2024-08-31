@@ -20,16 +20,12 @@ body {
     height: 5.5rem;
 }
 
-.link_navbar > ul{
-    display: flex;
-    flex-direction: row;
-    gap: 6rem;
-    position: relative;
-    right: 10rem;
-    bottom: .3rem;
-    justify-content: end;
-    list-style-type: none;
-}   
+.navbar-brand {
+    color: #f5f5f5;
+    text-decoration: none;
+    
+} 
+
 
 
 .title_navbar > h1 {
