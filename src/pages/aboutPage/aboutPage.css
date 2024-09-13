@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
 
 body {
-    overflow-x: hidden;
+    overflow: hidden;
     width: 100%;
     height: 100vh;
     font-family: "Montserrat", "Arial";
@@ -93,7 +93,13 @@ body {
     display: flex;
     justify-content: flex-end;
 
-    right: 5rem;
+    right: 10rem;
     bottom: 23rem;
-    border-radius: 3rem;
+    border-radius: 6rem;
+
+}
+
+.img_about_especific_page {
+    border-radius: 10rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.63);
 }

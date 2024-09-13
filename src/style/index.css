@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
 
 body {
-    overflow-x: hidden;
+    overflow: hidden;
     width: 100%;
     height: 100vh;
     font-family: "Montserrat", "Arial";
@@ -98,6 +98,7 @@ body {
     justify-content: flex-end;
     left: 50rem;
     bottom: 10rem;
+    border-radius: 10rem;
     
 }
 
