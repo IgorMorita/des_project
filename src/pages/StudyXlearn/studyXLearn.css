@@ -103,7 +103,7 @@ body {
     font-weight: bold;
     display: flex;
     position: relative;
-    
+    left: 2.3rem;
 }
 
 .text_sxl_page > a:hover {
@@ -114,8 +114,8 @@ body {
 .img_sxl_second_part > img{
     display: flex;
     position: relative;
-    left: 49rem;
-    bottom: 29.5rem;
+    left: 53rem;
+    bottom: 27rem;
     
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.199);
