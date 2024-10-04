@@ -58,49 +58,37 @@ body {
 
 }
 
-/*---------------- Main page ------------*/
+/* ---------------- main --------------- */
 
-.main_index_page {
-    background: linear-gradient(to right, #0054A9, #f5f5f58c);
 
-}
-
-.main_index_page > .text_main_index_page > h1 {
-    margin: 0;
-    padding: 3rem 2.2rem ;
+.main_method_page {
+    background: linear-gradient(to bottom, #0054A9 20%, #f5f5f5a2);
+    height: 100vh;
     color: #f5f5f5;
 }
 
-.main_index_page > .text_main_index_page > p {
-    color: #f5f5f5;
-    padding: 0rem 2.4rem;
-    margin: 0;
-    font-size: 1.4rem;
-    font-weight: 600
+.text_method_page {
+    padding-left: 2rem; 
+    padding-top: 1.2rem;
+}
+
+.text_method_page > p{
+    width: 30rem;
 
 }
 
-.main_index_page > .text_main_index_page > p > a {
-    color: #f5f5f5;
-    font-size: 1.1rem;
-}
+.hour_method_page > ul{
+    background-color: rgb(189, 159, 123);
+    width: 7rem;
+    padding: 2rem;
 
-.main_index_page > .text_main_index_page > p > a:hover {
-    font-weight: bold;
-    font-size: 1.0rem;
-    transition: 0.3s;
-}
-
-.main_img_index_page {
-    display: flex;
     position: relative;
-    justify-content: flex-end;
-    left: 45rem;
-    bottom: 8.5rem;
-    border-radius: 10rem;
-    
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.459);
-    border-style: solid;
-    border-color: #0000008f;
-}
+    border-radius: 1.2rem;
+    left: 80rem;
 
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    bottom: 2rem;
+}
