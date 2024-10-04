@@ -62,7 +62,7 @@ body {
 
 .main_index_page {
     background: linear-gradient(to right, #0054A9, #f5f5f58c);
-
+    height: 100vh;
 }
 
 .main_index_page > .text_main_index_page > h1 {
@@ -95,12 +95,12 @@ body {
     display: flex;
     position: relative;
     justify-content: flex-end;
-    left: 45rem;
-    bottom: 8.5rem;
+    left: 65rem;
+    bottom: 6rem;
     border-radius: 10rem;
     
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.459);
     border-style: solid;
-    border-color: #0000008f;
+    border-color: #00000021;
 }
 
