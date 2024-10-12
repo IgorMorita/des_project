@@ -18,7 +18,12 @@ body {
 
 /*-- Media --*/
 
+
 @media (max-width: 450px){
+    html, body {
+        overflow-x: hidden ;
+    }
+
     .header_index_page {
         background-color: #003871;
         display: flex;
@@ -35,6 +40,19 @@ body {
         display: flex;
         gap: 1rem;
         flex-direction: column;
+        position: relative;
+        
+    }
+
+    .navbar_index_page > a {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 5rem;
+        text-align:center;
+        left: 3rem;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
     }
 
     .navbar_index_page > a {
@@ -43,10 +61,35 @@ body {
         text-decoration: none;
     }
 
-    .navbar_index_hamb_menu {
+    .div_hamb_menu > .navbar_index_hamb_menu {
         width: 2rem;
         display: flex;
-        justify-content: flex-end;
-        
+        align-self: flex-end;
+        position: relative;
+        left: 14rem;
+        bottom: 20rem;
+        cursor: pointer
+}
+/*Alterações para telas menores ou maiores*/
+    @media (max-width: 340px){
+    .navbar_index_hamb_menu {
+        display: flex;
+        position: relative;
+        left: 5rem;
+        bottom: 8rem;
+    }
+    }
+
+    @media (max-width: 425px){
+    .navbar_index_hamb_menu {
+        display: flex;
+        position: relative;
+        right: 10rem;
+        bottom: 8rem;
+    }
     }
 }
+
+
+
+
