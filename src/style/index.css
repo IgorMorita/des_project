@@ -37,7 +37,7 @@ body {
     }
 
     .navbar_index_page {
-        display: flex;
+        display: none;
         gap: 1rem;
         flex-direction: column;
         position: relative;
@@ -61,34 +61,78 @@ body {
         text-decoration: none;
     }
 
-    .div_hamb_menu > .navbar_index_hamb_menu {
-        width: 2rem;
-        display: flex;
-        align-self: flex-end;
-        position: relative;
-        left: 14rem;
-        bottom: 20rem;
-        cursor: pointer
-}
-/*Alterações para telas menores ou maiores*/
-    @media (max-width: 340px){
     .navbar_index_hamb_menu {
-        display: flex;
+        width: 2rem;
+        height: 2rem;
+        display: inline-flex;
         position: relative;
-        left: 5rem;
-        bottom: 8rem;
-    }
+        left: 13rem;
+        top: 1rem;
+        cursor: pointer;
+
     }
 
-    @media (max-width: 425px){
-    .navbar_index_hamb_menu {
-        display: flex;
-        position: relative;
-        right: 10rem;
-        bottom: 8rem;
+    /*main part*/
+
+    .text_main_index_page {
+        padding-left: 1rem;
     }
+
+    .main_img_index_page {
+        width: 23rem;
+        height: 23rem;
+    }
+    .about_index_page {
+        padding-left: 1.5rem;
+        background-color: #8b8b8b;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+    }
+
+    .part2_about_index_page > p {
+        text-align: justify;
+    }
+
+    .part2_about_index_page > h1{
+        padding: .8rem;
+        border-radius: 3rem;
+        font-weight: 500;
+        background-color: #f5f5f5;
+        font-size: 1.4rem;
+        text-align: center ;
+    }
+
+    .part2_about_index_page > ul {
+        display: flex;
+        gap: 3rem;
+        list-style: none;
+        text-decoration: underline;
+        font-weight: bolder;
+
     }
 }
+
+
+@media (max-width: 340px){
+
+    .navbar_index_hamb_menu {
+        display: inline-flex;
+        position: relative;
+        left: 11rem;
+        bottom: 9rem;
+    }
+    }
+    
+@media (mix-width: 341px) and (max-width: 425px){
+        .navbar_index_hamb_menu {   
+            display: inline-flex;
+            position: relative;
+            left: 10rem;
+            bottom: 8rem;
+            
+     }
+     }
+/*Alterações para telas menores ou maiores*/
 
 
 
