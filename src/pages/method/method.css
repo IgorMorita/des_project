@@ -1,16 +1,13 @@
-/* Font Montserrat*/
-/* Font names -> Montserrat */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
 
+
 body {
-    overflow: hidden;
     width: 100%;
     height: 100vh;
     font-family: "Montserrat", "Arial";
     padding: 0;
     margin: 0;
-}
+};
 
 .header_index_page {
     background-color: #003871;
@@ -18,77 +15,149 @@ body {
     padding: .8rem;
 }
 
-.header_index_page > .logo_index_page  {
-    display: flex;
-    left: 1.5rem;
-    position: relative;
+
+/*-- Media --*/
+
+
+@media (max-width: 450px){
+    html, body {
+        overflow-x: hidden ;
+    }
+
+    .header_index_page {
+        background-color: #003871;
+        display: flex;
+        padding: .70rem;
+        font-size: .9rem;
+        
+    }
+
+    .logo_index_page > h1{
+        display: none;
+    }
+
+    .navbar_index_page {
+        display: none;
+        gap: 1rem;
+        flex-direction: column;
+        position: relative;
+        
+    }
+
+    .navbar_index_page > a {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 5rem;
+        text-align:center;
+        left: 3rem;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .navbar_index_page > a {
+        color: #f5f5f5;
+        display: flex;
+        text-decoration: none;
+    }
+
+    .navbar_index_hamb_menu {
+        width: 2rem;
+        height: 2rem;
+        display: inline-flex;
+        position: relative;
+        left: 13rem;
+        top: 1rem;
+        cursor: pointer;
+
+    }
+
+    /*main part*/
+
+
+    .text_main_index_page {
+        padding-left: 1rem;
+    }
     
+    .text_main_index_page > h1{
+        display: flex;
+        position: relative;
+        right: .4rem;
+    }
+
+    .main_img_index_page {
+        width: 23rem;
+        height: 23rem;
+    }
+    .about_index_page {
+        padding-left: 1.5rem;
+        background-color: #457B9D;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+    }
+
+
+    .part2_about_index_page > p {
+        text-align: justify;
+    }
+
+    .part2_about_index_page > .text_part2_about_mission{
+        padding: 0.5rem;
+        border-radius: 3rem;
+        font-weight: 600;
+        font-size: 1.4rem;
+        text-align: center ;
+        position: relative;
+        right: .7rem;
+        text-decoration: underline;
+    }
+
+    .part2_about_index_page > ul {
+        color: #fdfdfd;
+        display: flex;
+        gap: 3.5rem;
+        list-style: none;
+        font-weight: 550;
+        position: relative;
+        right: 1.3rem;
+        top: 1rem;
+
+    }
+
+    .part2_about_index_page > .text_part2_about {
+        padding: .8rem;
+        border-radius: 3rem;
+        font-weight: 600;
+        
+        font-size: 1.4rem;
+        text-align: justify ;
+        position: relative;
+        right: .7rem  
+    }       
+}
+
+
+@media (max-width: 340px){
+
+    .navbar_index_hamb_menu {
+        display: inline-flex;
+        position: relative;
+        left: 11rem;
+        bottom: 9rem;
+    }
+    }
     
+@media (mix-width: 341px) and (max-width: 425px){
+        .navbar_index_hamb_menu {   
+            display: inline-flex;
+            position: relative;
+            left: 10rem;
+            bottom: 8rem;
+            
 }
-
-.header_index_page > .logo_index_page > h1 > a{
-    color: #f5f5f5;
-    display: flex;
-    
 }
+/*Alterações para telas menores ou maiores*/
 
 
 
-.header_index_page > .navbar_index_page {
-    display: flex;
-    gap: 6rem;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    position: relative;
-    right: 4.5rem; /* c/ REM = 16px */
-}
 
-.header_index_page > .navbar_index_page > a {
-    color: #f5f5f5;
-    display: flex;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
-.header_index_page > .navbar_index_page > a:hover {
-    font-weight: bold;
-    transition: .2s;
-    text-decoration: underline;
-
-}
-
-/* ---------------- main --------------- */
-
-
-.main_method_page {
-    background: linear-gradient(to bottom, #0054A9 20%, #f5f5f5a2);
-    height: 100vh;
-    color: #f5f5f5;
-}
-
-.text_method_page {
-    padding-left: 2rem; 
-    padding-top: 1.2rem;
-}
-
-.text_method_page > p{
-    width: 30rem;
-
-}
-
-.hour_method_page > ul{
-    background-color: rgb(189, 159, 123);
-    width: 7rem;
-    padding: 2rem;
-
-    position: relative;
-    border-radius: 1.2rem;
-    left: 80rem;
-
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-
-    bottom: 2rem;
-}

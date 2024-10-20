@@ -71,7 +71,31 @@ body {
 
     /*main part*/
 
-   
+    .text_sxl_page > h1{
+        text-align: center;
+    }
+
+    .text_sxl_page > p {
+        width: 20rem;
+        text-align: justify;
+        position: relative;
+        display: flex;
+        left: 1.6rem;
+    }
+
+    .text_sxl_page > a {
+        position: relative;
+        display: flex;
+        left: 1.45rem;
+        
+    }
+/* SxL parte 2 */
+    .img_sxl_second_part > img {
+        border-radius: 1.5rem;
+        display: flex;
+        position: relative;
+        left: 3.7rem;
+    }
 
 @media (max-width: 340px){
 
@@ -90,6 +114,6 @@ body {
             left: 10rem;
             bottom: 8rem;
             
-     }
+}
 }
 }
