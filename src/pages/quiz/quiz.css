@@ -102,30 +102,34 @@ body {
         
     }
 
-    .hour_method_page {
-        background-color: #ebda79;
-        border-radius: 1.2rem;
+    .text_method_page_quiz > p {
         width: 20rem;
-        padding: .1rem;
-        
+        text-align: center;
+        justify-content: center;
         position: relative;
         left: 1.5rem;
     }
 
-    .hour_method_page > ul {
-        list-style: none;
-        display: flex;
-        gap: 1rem;
-        flex-direction: column;
-
+    .link_quiz_page {
+        background-color: rgb(219, 219, 147);
+        padding: 1rem;
+        border-radius: 1rem;
+        text-align: center;
+        width: 17rem;
+        position: relative;
+        left: 1.9rem;
     }
 
-    .hour_method_page > ul > li {
-        font-weight:600;
-        display: flex;
+    .link_quiz_page  > a {
+        text-decoration: underline;
+        color: black;
+    }
+
+    .link_quiz_page > a:hover {
+        text-decoration: underline;
+        font-weight: bold;
         
     }
-    
 
 
 @media (max-width: 340px){
