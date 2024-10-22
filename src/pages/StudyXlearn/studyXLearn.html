@@ -10,7 +10,7 @@
     <div class="container">
         <div class="header_index_page">
 
-            <img src="../../assets/img_index/hamb_menu.svg" alt="hamb_menu" class="navbar_index_hamb_menu">
+            <img src="../../assets/img_index/hamb_menu.svg" alt="hamb_menu" class="navbar_index_hamb_menu" onclick="clickMenu()">
 
             <div class="logo_index_page">
                 <img src="../../assets/img_index/brain_logo_index.png" alt="brainLogo" height="70" width="70">
@@ -19,7 +19,7 @@
                 
 
 
-            <nav class="navbar_index_page">
+            <nav class="navbar_index_page" id="itens">
                 <a href="../../index.html">Home</a>
                 <a href="../aboutPage/aboutPage.html">Sobre</a>
                 <a href="../method/method.html">Métodos</a>
@@ -51,5 +51,14 @@
             </div> 
         </div>
     </div>
+    <script>
+        function clickMenu() {
+            if(itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

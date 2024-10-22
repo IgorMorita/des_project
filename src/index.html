@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/index.css">
     <script src="https://kit.fontawesome.com/063721c0e5.js" crossorigin="anonymous"></script>
+    
     <title>Main</title>
 </head>
 <body>
@@ -15,9 +16,9 @@
             </div>
             
 
-            <img src="assets/img_index/hamb_menu.svg" alt="hamb_menu" class="navbar_index_hamb_menu">
+            <img src="assets/img_index/hamb_menu.svg" alt="hamb_menu" class="navbar_index_hamb_menu" onclick="clickMenu()">
 
-            <nav class="navbar_index_page">
+            <nav class="navbar_index_page" id="itens">
                 <a href="pages/StudyXlearn/studyXLearn.html">Estudar X Aprender</a>
                 <a href="./pages/method/method.html ">Métodos</a>
                 <a href="#">Quiz</a>
@@ -60,5 +61,15 @@
 
 
     </div>
+
+    <script>
+        function clickMenu() {
+            if(itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

@@ -154,8 +154,16 @@ body {
             left: 10rem;
             bottom: 8rem;
             
-     }
-     }
+}
+
+@media (min-width: 425px) {
+    .navbar_index_hamb_menu {
+        display: flex;
+        position: relative;
+        right: 3rem;
+    }
+}
+}
 /*Alterações para telas menores ou maiores*/
 
 
